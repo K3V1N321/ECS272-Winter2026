@@ -60,7 +60,7 @@ function Layout() {
               }}>
                 <option value = "3.14" disabled = {selectedMinRating > 3.14}> 3.14</option>
                 <option value = "3.5" disabled = {selectedMinRating > 3.5}> 3.5</option>
-                <option value = "4" disabled = {selectedMinRating > 3.4}> 4</option>
+                <option value = "4" disabled = {selectedMinRating > 4}> 4</option>
                 <option value = "4.5" disabled = {selectedMinRating > 4.5}> 4.5</option>
                 <option value = "4.95"> 4.95</option>
               </select>
